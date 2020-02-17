@@ -14,7 +14,7 @@ import pkgEnum.eSuit;
  *        Cards.
  *
  */
-
+//test
 public class Card implements Comparable {
 
 	/**
@@ -51,7 +51,9 @@ public class Card implements Comparable {
 	 *              Create an instance of the Card class
 	 */
 	public Card(pkgEnum.eSuit eSuit, pkgEnum.eRank eRank) {
-		//TODO - Implement this method.  
+		this.eSuit = eSuit;
+		this.eRank = eRank;
+		this.Wild = false;
 	}
 
 	/**
@@ -105,8 +107,7 @@ public class Card implements Comparable {
 	 *         geteRank - get the eRank of the Card
 	 */
 	public eRank geteRank() {
-		//FIXME - Implement this method.  This shouldn't return 'null', return the right value.
-		return null;
+		return this.eRank;
 	}
 
 	/**
@@ -117,8 +118,7 @@ public class Card implements Comparable {
 	 *         geteSuit - get the eSuit of the Card
 	 */
 	public eSuit geteSuit() {
-		//FIXME - Implement this method.  This shouldn't return 'null', return the right value.
-		return null;
+		return this.eSuit;
 	}
 
 	
@@ -128,8 +128,7 @@ public class Card implements Comparable {
 	 * @return - Return boolean whether the card is Wild
 	 */
 	public boolean isWild() {
-		//FIXME - Implement this method.  This shouldn't return 'false', return the right value
-		return false;
+		return this.Wild;
 	}
 
 	/**
@@ -140,7 +139,7 @@ public class Card implements Comparable {
 	 *              seteRank - set the eRank of the Card
 	 */
 	private void seteRank(eRank eRank) {
-		//TODO - Implement this method
+		this.eRank = eRank;
 	}
 
 	/**
@@ -151,7 +150,7 @@ public class Card implements Comparable {
 	 *              seteSuit - Set the eSuit of the Card
 	 */
 	private void seteSuit(eSuit eSuit) {
-		//TODO - Implement this method
+		this.eSuit = eSuit;
 	}
 	
 	
