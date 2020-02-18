@@ -14,7 +14,7 @@ import pkgEnum.eSuit;
  *        Cards.
  *
  */
-//test
+
 public class Card implements Comparable {
 
 	/**

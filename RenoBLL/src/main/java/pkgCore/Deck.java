@@ -44,7 +44,7 @@ public class Deck {
 	 *                    is shuffled.
 	 */
 	public Deck(int iNbrOfDecks) {
-		//TODO - Implement the constructor
+		
 	}
 
 	/**
